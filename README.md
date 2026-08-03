@@ -34,6 +34,15 @@ Construa seu portfólio via API e disponibilize publicamente para recrutadores e
 | **bcrypt/passlib** | Hash seguro de senhas |
 | **Uvicorn** | Servidor ASGI |
 
+## 🌐 Produção
+
+A API está online em: **https://devshowcase-ynqy.onrender.com**
+
+- [Swagger Docs](https://devshowcase-ynqy.onrender.com/docs)
+- [ReDoc](https://devshowcase-ynqy.onrender.com/redoc)
+
+> Nota: No plano gratuito do Render, a API "dorme" após 15 min sem requisições. A primeira requisição pode demorar ~30s para acordar.
+
 ## 🚀 Rodando Localmente
 
 ```bash
@@ -143,9 +152,9 @@ devshowcase/
 ## 🔜 Próximos Passos
 
 - [ ] Upload de imagens (avatar e screenshots de projetos)
-- [ ] Deploy no Render/Railway
+- [x] Deploy no Render
 - [ ] Frontend com React (consumindo esta API)
-- [ ] Testes com pytest
+- [ ] Migrar para PostgreSQL (produção)
 - [ ] CI/CD com GitHub Actions
 
 ## 📝 Licença
