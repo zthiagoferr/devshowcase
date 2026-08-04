@@ -36,10 +36,13 @@ Construa seu portfólio via API e disponibilize publicamente para recrutadores e
 
 ## 🌐 Produção
 
-A API está online em: **https://devshowcase-ynqy.onrender.com**
+| Ambiente | URL |
+|---|---|
+| **API** | [devshowcase-ynqy.onrender.com](https://devshowcase-ynqy.onrender.com) |
+| **Frontend** | [frontend-beta-nine-u8szd09riu.vercel.app](https://frontend-beta-nine-u8szd09riu.vercel.app) |
 
-- [Swagger Docs](https://devshowcase-ynqy.onrender.com/docs)
-- [ReDoc](https://devshowcase-ynqy.onrender.com/redoc)
+- **API Docs**: [Swagger](https://devshowcase-ynqy.onrender.com/docs) | [ReDoc](https://devshowcase-ynqy.onrender.com/redoc)
+- **Frontend**: React + Vite + TypeScript + Tailwind (deploy na Vercel)
 
 > Nota: No plano gratuito do Render, a API "dorme" após 15 min sem requisições. A primeira requisição pode demorar ~30s para acordar.
 
