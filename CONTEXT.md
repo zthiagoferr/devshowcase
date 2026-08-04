@@ -9,6 +9,9 @@
 - README.md profissional com badges e documentação completa
 - Frontend React + Vite + TypeScript + Tailwind com CRUD completo
 - 6 páginas: Home, Login, Register, Portfolio, Dashboard
+- CI/CD com GitHub Actions (pytest + build frontend)
+- Licença MIT
+- Documentação de arquitetura completa (ARCHITECTURE.md)
 
 ## Repositórios
 - GitHub: https://github.com/zthiagoferr/devshowcase

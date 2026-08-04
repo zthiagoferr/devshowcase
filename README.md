@@ -122,10 +122,15 @@ docker run -p 8000:8000 devshowcase
 pytest -v
 ```
 
+## 🏛️ Arquitetura
+
+Documentação completa de engenharia: [ARCHITECTURE.md](ARCHITECTURE.md)
+
 ## 📁 Estrutura do Projeto
 
 ```
 devshowcase/
+├── .github/workflows/  # CI/CD GitHub Actions
 ├── app/
 │   ├── api/           # Rotas da API
 │   │   ├── auth.py        # Registro e login
@@ -145,10 +150,18 @@ devshowcase/
 │   ├── config.py       # Configurações
 │   ├── database.py     # Conexão com banco
 │   └── main.py         # Ponto de entrada
+├── frontend/
+│   └── src/
+│       ├── api/         # Camada HTTP (axios + JWT)
+│       ├── components/  # Layout, ProtectedRoute
+│       ├── context/     # AuthContext (estado global)
+│       └── pages/       # Home, Login, Register, Portfolio, Dashboard
 ├── tests/              # Testes automatizados
 ├── .env                # Variáveis de ambiente
 ├── .gitignore
 ├── Dockerfile
+├── ARCHITECTURE.md     # Documento de arquitetura
+├── LICENSE
 └── requirements.txt
 ```
 
